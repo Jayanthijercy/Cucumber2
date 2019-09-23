@@ -1,4 +1,4 @@
-package org.test1;
+package org.Banggood.resorce;
 
 import java.awt.AWTException;
 import java.awt.Robot;
@@ -47,4 +47,6 @@ public class Base {
 		r.keyRelease(KeyEvent.VK_ENTER);
 		
 	}
+
 }
+

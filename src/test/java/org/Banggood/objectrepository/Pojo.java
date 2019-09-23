@@ -1,12 +1,12 @@
-package org.test1;
+package org.Banggood.objectrepository;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class Pojo extends Base {
+public class Pojo extends org.Banggood.resorce.Base {
 	
-	public Pojo() {
+public Pojo() {
 		
 		PageFactory.initElements(driver, this);
 
@@ -138,4 +138,6 @@ public class Pojo extends Base {
 	
 	@FindBy(xpath="//button[@id='submitbtn']")
 	private WebElement sumit;
+
+
 }
